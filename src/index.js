@@ -1,4 +1,5 @@
 const express = require('express')
 const app = express()
 app.use(express.static('image'))
+app.use(express.static('logos'))
 app.listen(4000)
